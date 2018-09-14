@@ -1,0 +1,35 @@
+/*Navigation*/
+
+* {
+  background-color: black;
+  opacity: 0.9;
+}
+
+.Navigation {
+  display: flex;
+  border-bottom: 1px solid seashell;
+  height: 69px;
+  align-items: center;
+}
+
+div, img {
+  border: 2px solid white;
+}
+
+.logo {
+  display: flex;
+  height: 50px;
+  margin-left: 10px;
+
+}
+
+.links {
+  display: flex;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  text-decoration: underline;
+  margin-left: auto;
+  width: 400px;
+  justify-content: space-around;
+}
