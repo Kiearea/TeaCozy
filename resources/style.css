@@ -65,12 +65,14 @@ div, img {
   margin-top: 10px;
   margin-bottom: 15px;
   font-size: 33px;
+  opacity: 0.9;
 }
 
 .handpicked {
   font-size: 22px;
   margin-top: 5px;
   margin-bottom: 10px;
+  opacity: 0.9;
 }
 
 /*What's Steeping*/
@@ -88,16 +90,20 @@ div, img {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin-top: 20px;
 }
 
 #featured {
   font-size: 33px;
   margin-bottom: 10px;
+  opacity: 0.9;
 }
 
 .subtitle {
   font-size: 22px;
   margin-top: 5px;
+  margin-bottom: 5px;
+  opacity: 0.9;
 }
 
 .drinks{
@@ -116,11 +122,108 @@ div, img {
   flex-direction: column;
   align-items: center;
   margin: 10px;
-
 }
 
 .names {
   margin-top: 10px;
-  margin-bottom: 5px;
+  margin-bottom: 0px;
   font-size: 22px;
+  opacity: 0.9;
+}
+
+/*Locations*/
+
+.bottom {
+  background-image: url(./images/img-locations-background.jpg);
+  display: flex;
+  height: 500px;
+  width: 1200px;
+  margin-top: 40px;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 50px;
+}
+
+.bottom-title {
+  background-color: transparent;
+  font-size: 33px;
+  font-weight: 700;
+  font-family: Helvetica;
+  margin-bottom: 15px;
+  margin-top: 0px;
+}
+
+#locations {
+  display: inline-flex;
+  opacity: 0.9;
+  width: 1000px;
+  justify-content: space-between;
+  background-color: transparent;
+}
+
+.streets {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 300px;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  opacity: 1;
+}
+
+.place {
+  margin-bottom: 40px;
+  font-weight: bold;
+}
+
+.address {
+  margin-bottom: 40px;
+}
+
+h3 {
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  opacity: 1;
+}
+
+/*Ending*/
+
+.end {
+  display: flex;
+  height: 200px;
+  width: 700px;
+  flex-direction: column;
+  align-items: center;
+  margin: 0px;
+}
+
+.end-head {
+  font-size: 33px;
+  margin-top: 0px;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+
+}
+
+.site {
+  margin: 15px;
+  font-weight: bold;
+
+}
+
+.number {
+   margin-top: 5px;
+}
+
+.footer {
+  display: flex;
+  margin-right: auto;
+  margin-left: 20px;
 }
