@@ -1,5 +1,4 @@
-/*Navigation*/
-
+/*Page*/
 * {
   background-color: black;
   font-family: Helvetica;
@@ -7,16 +6,16 @@
   justify-content: center;
 }
 
+/*Navigation*/
 .Navigation {
   display: flex;
   border-bottom: 1px solid seashell;
   height: 69px;
   align-items: center;
-  opacity: 0.9;
-}
-
-div, img {
-  border: 2px solid white;
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+  top: 0px;
 }
 
 .logo {
@@ -28,24 +27,27 @@ div, img {
 .links {
   display: flex;
   font-size: 22px;
+  opacity: 0.9;
   text-decoration: underline;
   margin-left: auto;
+  margin-right: 20px;
   width: 350px;
   justify-content:space-between;
 }
 
 /*Content*/
-
 .content {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  position: relative;
+  top: 60px;
+  z-index: 1;
 }
 
 /*Main Title*/
-
-.maintitle {
+#mission {
   background-image: url(./images/img-mission-background.jpg);
   height: 700px;
   width: 1200px;
@@ -61,7 +63,7 @@ div, img {
   width: 1200px;
 }
 
-#mission {
+.main {
   margin-top: 10px;
   margin-bottom: 15px;
   font-size: 33px;
@@ -76,8 +78,7 @@ div, img {
 }
 
 /*What's Steeping*/
-
-.steep {
+#featured {
   width: 1000px;
   display: flex;
   flex-direction: column;
@@ -90,10 +91,10 @@ div, img {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-top: 20px;
+  margin-top: 40px;
 }
 
-#featured {
+.tea {
   font-size: 33px;
   margin-bottom: 10px;
   opacity: 0.9;
@@ -132,7 +133,6 @@ div, img {
 }
 
 /*Locations*/
-
 .bottom {
   background-image: url(./images/img-locations-background.jpg);
   display: flex;
@@ -189,33 +189,31 @@ h3 {
 }
 
 /*Ending*/
-
 .end {
   display: flex;
   height: 200px;
   width: 700px;
   flex-direction: column;
   align-items: center;
+  justify-content: flex-start;
   margin: 0px;
 }
 
 .end-head {
   font-size: 33px;
-  margin-top: 0px;
+  margin: 10px 0px;
 }
 
 .contact {
   display: flex;
   flex-direction: column;
   align-items: center;
-  
-
+  margin: 0px;
 }
 
 .site {
   margin: 15px;
   font-weight: bold;
-
 }
 
 .number {
